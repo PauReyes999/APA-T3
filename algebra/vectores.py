@@ -120,4 +120,7 @@ class Vector:
         Lo mismo que la resta, pero cuando el vector va a la derecha.
         """
         return -self + other
-
+        
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
